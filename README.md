@@ -7,10 +7,10 @@ How to run the code:
 The other simulink codes can be deleted, they mostly build to debug the different parts of main simulink code: F104_Project_With_Modifieng.slx
 
 The equations in this code are mostly from the following resources:
-[1]- Performance Stability Dynamics and Control of Airplanes, Bandu N. Pamadi, 1998. 
-[2]- Airplane Flight Dynamics and Automatic Flight Control, Jan Roskam, Part1, 2001.
-[3]- Flight Dynamics Principles, Michael V. Cook, 2007.
-[4]- Dynamics of Flight stability and control, Bernard Etkin, 1996.
+1.  Performance Stability Dynamics and Control of Airplanes, Bandu N. Pamadi, 1998.
+2.  Airplane Flight Dynamics and Automatic Flight Control, Jan Roskam, Part1, 2001.
+3.  Flight Dynamics Principles, Michael V. Cook, 2007.
+4.  Dynamics of Flight stability and control, Bernard Etkin, 1996.
 
 The Project was focusing on the following:
 1. Writing the fighter equations of motion in the compact form, in the body system of coordinate and in the cartesian form.
