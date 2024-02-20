@@ -37,12 +37,4 @@ Check the word file: F104 Fighter Dynamic Model
 - The Aerodynamic Derivatives
 - Longitudinal Derivatives
 - Lateral - Directional Stability
-
-
-Some equations that can be helpful. 
-C_Lα=C_L/((α- α_0))
-C_Dα=2KC_L C_Lα
-C_mα=C_Lα  ((dC_m)/(dC_L ))
-((dC_m)/(dC_L ))=X ̅_cg-X ̅_ac+((dC_m)/(dC_L ))_f-a_t/C_Lα   (1-dε/dα) η_t V ̅_1 
-dε/dα=(1.62 C_Lα)/(π  A)
-
+- Helpful equations. 
