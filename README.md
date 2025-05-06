@@ -4,7 +4,9 @@ This project is about building a **mathematical model** for the **F-104A aircraf
 - **Theoretical** 📖  
 - **Programming (MATLAB)** 💻  
 
+
 ![F-104 Starfighter](https://github.com/user-attachments/assets/3587fdd1-55ba-42a8-8c81-29d8c1a0cd85)  
+
 
 ## 🚀 How to Run the Code:  
 1. Open `Aerodynamic_Dervatives.m` and run it. ▶️  
@@ -17,6 +19,10 @@ The equations in this code are derived from:
 2. 📙 *Airplane Flight Dynamics and Automatic Flight Control* – Jan Roskam, Part 1 (2001)  
 3. 📕 *Flight Dynamics Principles* – Michael V. Cook (2007)  
 4. 📗 *Dynamics of Flight Stability and Control* – Bernard Etkin (1996)  
+
+
+![image](https://github.com/user-attachments/assets/daa6fecc-34af-4e30-9b1b-dcf01ecc987a)
+
 
 ## 🔍 Project Focus:  
 1. ✍️ Writing fighter **equations of motion** in compact form (body coordinate system & Cartesian form).  
