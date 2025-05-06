@@ -1,40 +1,44 @@
-# F104-Fighter-Nonlinear-Mathematical-Model
-This project is about building a mathematical model for the F-104A aircraft. It contains two aspects theoretical and programming using MATLAB.
+# ✈️ F104-Fighter-Nonlinear-Mathematical-Model  
 
-How to run the code:
-1. open Aerodynamic_Dervatives.m and eun it.
-2. open F104_Project_With_Modifieng.slx and run it.
-The other simulink codes can be deleted, they mostly build to debug the different parts of main simulink code: F104_Project_With_Modifieng.slx
+This project is about building a **mathematical model** for the **F-104A aircraft** 🛩️. It contains two aspects:  
+- **Theoretical** 📖  
+- **Programming (MATLAB)** 💻  
 
-The equations in this code are mostly from the following resources:
-1.  Performance Stability Dynamics and Control of Airplanes, Bandu N. Pamadi, 1998.
-2.  Airplane Flight Dynamics and Automatic Flight Control, Jan Roskam, Part1, 2001.
-3.  Flight Dynamics Principles, Michael V. Cook, 2007.
-4.  Dynamics of Flight stability and control, Bernard Etkin, 1996.
+![F-104 Starfighter](https://github.com/user-attachments/assets/3587fdd1-55ba-42a8-8c81-29d8c1a0cd85)  
 
-The Project was focusing on the following:
-1. Writing the fighter equations of motion in the compact form, in the body system of coordinate and in the cartesian form.
-2. Writing the basic equations of motion for (p_dot, q_dot, r_dot, u_dot, v_dot, and w_dot).
-3. Identifying the forces acting on the aircraft and place them in the nondimensional form and then deploying the nondimensional form in Taylor to associate it with aerodynamic derivatives.
-4. Performing axes transformation and defining the laws of calculating position and attitude in the body coordinate system.
-5. Finding dynamic derivatives in demand (3) by means of analytical-experimental equations.
-6. Finding the linear model by the method of small-perturbations when the aircraft is subjected to turbulence on the angle of attack. Then writing the linear model in matrix form (state space module), leave the matrices (A,B) as function of aerodynamic derivatives. Then substituting the aerodynamic derivatives calculated in section (5) into these matrices and determine the longitudinal and Lateral modes of motion (ξ,ω) (consider here α=5 degree, only while calculating the derivatives).
-7. Representing the equations of motion (in subsections 2, 3 and 4) in the form of box diagrams with their integration and isolation within two boxes, a box for kinematic equations (kinetic) and a box for force equations.
-8. Presenting the output of dynamics (position, attitude, linear and angular velocities) in the form of time-dependent curves, for the following inputs in degrees for one second:
-δ_e=-2 ,(2):δ_r=-5,(3):δ_a=-3
+## 🚀 How to Run the Code:  
+1. Open `Aerodynamic_Dervatives.m` and run it. ▶️  
+2. Open `F104_Project_With_Modifieng.slx` and run it. ▶️  
+⚠️ *The other Simulink files can be deleted—they were mostly used for debugging.*  
 
-Notes:
-- A ready-made atmospheric model from the MATLAB library (for the given altitude) was used.
-- A fixed value for thrust (2 X 15 KN) was used.
+## 📚 Equations & Resources:  
+The equations in this code are derived from:  
+1. 📘 *Performance Stability Dynamics and Control of Airplanes* – Bandu N. Pamadi (1998)  
+2. 📙 *Airplane Flight Dynamics and Automatic Flight Control* – Jan Roskam, Part 1 (2001)  
+3. 📕 *Flight Dynamics Principles* – Michael V. Cook (2007)  
+4. 📗 *Dynamics of Flight Stability and Control* – Bernard Etkin (1996)  
 
-Model Parameters and specifications:
-Check the word file: F104 Fighter Dynamic Model
-- Profile Num.	Flying Parameters
-- Geometric Characteristics
-- Wing Parameters
-- Longitudinal Tail Parameters 
-- Vertical Tail Parameter
-- The Aerodynamic Derivatives
-- Longitudinal Derivatives
-- Lateral - Directional Stability
-- Helpful equations. 
+## 🔍 Project Focus:  
+1. ✍️ Writing fighter **equations of motion** in compact form (body coordinate system & Cartesian form).  
+2. 📝 Deriving basic equations for **(ṗ, q̇, ṙ, u̇, v̇, ẇ)**.  
+3. ⚖️ Identifying forces → nondimensional form → Taylor expansion → linking to **aerodynamic derivatives**.  
+4. 🔄 Performing **axes transformation** & defining position/attitude laws in body coordinates.  
+5. 🔬 Finding **dynamic derivatives** via analytical-experimental methods.  
+6. 📉 Deriving **linear model** (small-perturbation method under turbulence) → state-space form (**A, B matrices**) → substituting derivatives → analyzing **longitudinal/lateral modes** (ξ, ω) at **α = 5°**.  
+7. 📊 Representing motion equations as **block diagrams** (kinematic vs. force equations).  
+8. 📈 Plotting **time-dependent curves** for dynamics outputs (position, attitude, velocities) under inputs:  
+   - (1) δₑ = -2°  
+   - (2) δᵣ = -5°  
+   - (3) δₐ = -3°  
+
+## 📝 Notes:  
+- 🌍 Used MATLAB’s built-in **atmospheric model** (fixed altitude).  
+- ⚡ Assumed **constant thrust** (2 × 15 kN).  
+
+## 📋 Model Parameters & Specifications:  
+Check the Word file: **`F104 Fighter Dynamic Model`** for:  
+- 📊 Profile No. & Flying Parameters  
+- 📏 Geometric Characteristics  
+- 🦅 Wing & Tail Parameters  
+- 📉 Aerodynamic Derivatives (Longitudinal & Lateral-Directional)  
+- ➕ Helpful Equations  
